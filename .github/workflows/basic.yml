@@ -71,3 +71,9 @@ jobs:
 
       - name: Build
         run: make build
+
+      - name: discord
+        uses: sebastianpopp/discord-action@releases/v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          message: ${{ github.repository }} has been successfullly deployed.
