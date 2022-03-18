@@ -2,5 +2,5 @@ package hello
 
 //Greet ...Greet GitHub Actions
 func Greet() string {
-	return "Hello GitHub Actions 2"
+	return "Hello GitHub Actions 3"
 }
