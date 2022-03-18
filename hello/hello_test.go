@@ -4,7 +4,7 @@ import "testing"
 
 func TestGreet(t *testing.T) {
 	result := Greet()
-	if result != "Hello GitHub Actions 6" {
+	if result != "Hello GitHub Actions 7" {
 		t.Errorf("Greet() = %s; Expected Hello GitHub actions!", result)
 	}
 }
